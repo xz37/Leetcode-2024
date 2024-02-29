@@ -1,26 +1,26 @@
 # Leetcode-2024
 ## array
-- 0704 - [二分查找](https://leetcode.cn/problems/binary-search/description/) - [python](python/q0704/solution.py)
+- 0704 - [二分查找](https://leetcode.cn/problems/binary-search/description/) - [python](python/q0704/solution.py) - [java](java/src/q0704/Solution.java)
     
   左右区间，边界小于等于
 
 
-- 0027 - [移除元素](https://leetcode.cn/problems/remove-element/description/) - [python](python/q0027/solution.py)
+- 0027 - [移除元素](https://leetcode.cn/problems/remove-element/description/) - [python](python/q0027/solution.py) - [java](java/src/q0027/Solution.java)
 
-  双指针：用一个额外指针标记累积的非目标元素位置
+  双指针：left指针从前往后，right指针从后往前。left的元素如果是val，把right的元素赋给left位置，right左移；否则left右移
 
 
-- 0977 - [有序数组的平方](https://leetcode.cn/problems/squares-of-a-sorted-array/description/) - [python](python/q0977/solution.py)
+- 0977 - [有序数组的平方](https://leetcode.cn/problems/squares-of-a-sorted-array/description/) - [python](python/q0977/solution.py) - [java](java/src/q0977/Solution.java)
 
   利用递增的信息，两个指针指向两边，要再来一个位置指针控制res数组
 
 
-- 0209 - [长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/description/) - [python](python/q0209/solution.py)
+- 0209 - [长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/description/) - [python](python/q0209/solution.py) - [java](java/src/q0209/Solution.java)
 
   用两个指针滑动窗口：如果当前窗口的sum>=target，更新长度，右移left，更新sum；否则右移right，更新sum
 
 
-- 0059 - [螺旋矩阵II](https://leetcode.cn/problems/spiral-matrix-ii/description/) - [python](python/q0059/solution.py)
+- 0059 - [螺旋矩阵II](https://leetcode.cn/problems/spiral-matrix-ii/description/) - [python](python/q0059/solution.py) - [java](java/src/q0059/Solution.java)
 
   一个while里面4个for，for的关键是控制好4个边界
 
@@ -40,9 +40,11 @@
   
       `&`：与运算，同时为1才取1，否则0
 
+
 - 1365 - [有多少小于当前数字的数字](https://leetcode.cn/problems/how-many-numbers-are-smaller-than-the-current-number/description/) - [python](python/q1365/solution.py)
   
   构建2个array，一个存0-100数字的出现个数，一个存0-101中比当前数字小的数字出现个数
+
 
 - 0941 - [有效的山脉数组](https://leetcode.cn/problems/valid-mountain-array/description/) - [python](python/q0941/solution.py)
 
