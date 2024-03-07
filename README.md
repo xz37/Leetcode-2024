@@ -64,3 +64,12 @@
 - 0941 - [有效的山脉数组](https://leetcode.cn/problems/valid-mountain-array/description/) - [python](python/q0941/solution.py) - [java](java/src/q0941/Solution.java)
 
   用2个while，第一个while找到山顶，第二个while找到山脚，判断山顶山脚的位置是否合理
+
+
+- 1207 - [独一无二的出现次数](https://leetcode.cn/problems/unique-number-of-occurrences/description/) - [java](java/src/q1207/Solution.java)
+  - java初始化`hashmap`和`hashset`
+    ```java
+    Map<Integer, Integer> map = new HashMap<>();
+    Set<Integer> occurred = new HashSet<>();
+    ```
+
