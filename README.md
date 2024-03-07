@@ -26,9 +26,24 @@
 
 
 ## array2
-- 1356 - [根据数字二进制下 1 的数目排序](https://leetcode.cn/problems/sort-integers-by-the-number-of-1-bits/description/) - [python](python/q1356/solution.py)
+- 1356 - [根据数字二进制下 1 的数目排序](https://leetcode.cn/problems/sort-integers-by-the-number-of-1-bits/description/) - [python](python/q1356/solution.py) - [java](java/src/q1356/Solution.java)
 
-  - python自定义比较函数的写法
+  - java 
+    - `Integer[]` 转 `int[]`
+      ```java
+      Integer[] arr1 = Arrays.stream(arr2).boxed().toArray(Integer[]::new);
+      ```
+    - `int[]` 转 `Integer[]`
+      ```java
+      int[] arr2 = Arrays.stream(arr1).mapToInt(i -> i).toArray();
+      ```
+    - 自定义比较函数的写法
+      ```java
+      Arrays.sort(arr, (o1, o2) -> {
+          return o2 - o1;
+      });
+      ```
+  - python 自定义比较函数的写法
     ```python 
     def compare(num1, num2):
         return num1 - num2
@@ -41,11 +56,23 @@
       `&`：与运算，同时为1才取1，否则0
 
 
-- 1365 - [有多少小于当前数字的数字](https://leetcode.cn/problems/how-many-numbers-are-smaller-than-the-current-number/description/) - [python](python/q1365/solution.py)
+- 1365 - [有多少小于当前数字的数字](https://leetcode.cn/problems/how-many-numbers-are-smaller-than-the-current-number/description/) - [python](python/q1365/solution.py) - [java](java/src/q1365/Solution.java)
   
-  构建2个array，一个存0-100数字的出现个数，一个存0-101中比当前数字小的数字出现个数
+  用一个array用来存当前indx出现次数
 
 
-- 0941 - [有效的山脉数组](https://leetcode.cn/problems/valid-mountain-array/description/) - [python](python/q0941/solution.py)
+- 0941 - [有效的山脉数组](https://leetcode.cn/problems/valid-mountain-array/description/) - [python](python/q0941/solution.py) - [java](java/src/q0941/Solution.java)
 
   用2个while，第一个while找到山顶，第二个while找到山脚，判断山顶山脚的位置是否合理
+
+
+- 1207 - [独一无二的出现次数](https://leetcode.cn/problems/unique-number-of-occurrences/description/) - [java](java/src/q1207/Solution.java)
+  - java初始化`hashmap`和`hashset`
+    ```java
+    Map<Integer, Integer> map = new HashMap<>();
+    Set<Integer> occurred = new HashSet<>();
+    ```
+
+- 0283 - [移动零](https://leetcode.cn/problems/move-zeroes/description/) - [java](java/src/q0283/Solution.java)
+
+  一次遍历：快指针指向遍历的数，慢指针指向整理后最后一个非零的数
