@@ -61,6 +61,6 @@
   用一个array用来存当前indx出现次数
 
 
-- 0941 - [有效的山脉数组](https://leetcode.cn/problems/valid-mountain-array/description/) - [python](python/q0941/solution.py)
+- 0941 - [有效的山脉数组](https://leetcode.cn/problems/valid-mountain-array/description/) - [python](python/q0941/solution.py) - [java](java/src/q0941/Solution.java)
 
   用2个while，第一个while找到山顶，第二个while找到山脚，判断山顶山脚的位置是否合理
