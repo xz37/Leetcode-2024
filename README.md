@@ -73,3 +73,6 @@
     Set<Integer> occurred = new HashSet<>();
     ```
 
+- 0283 - [移动零](https://leetcode.cn/problems/move-zeroes/description/) - [java](java/src/q0283/Solution.java)
+
+  一次遍历：快指针指向遍历的数，慢指针指向整理后最后一个非零的数
