@@ -78,4 +78,11 @@
   一次遍历：快指针指向遍历的数，慢指针指向整理后最后一个非零的数
 
 
+## linkedList
+
+
 - 0203 - [移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/description/) - [java](java/src/q0203/Solution.java)
+
+
+- 0707 - [设计链表](https://leetcode.cn/problems/design-linked-list/description/) - [java](java/src/q0707/MyLinkedList.java)
+
