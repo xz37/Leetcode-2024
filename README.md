@@ -96,3 +96,33 @@
 - 0024 - [两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/description/) - [java](java/src/q0024/Solution.java)
 
   用和0206非常相似的递归
+
+
+## String
+
+
+- 0344 - [反转字符串](https://leetcode.cn/problems/reverse-string/description/) - [java](java/src/q0344/Solution.java)
+
+
+- 0541 - [反转字符串II](https://leetcode.cn/problems/reverse-string-ii/description/) - [java](java/src/q0541/Solution.java)
+
+
+- LCR122 - [替换空格](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/description/) - [java](java/src/qLCR122/Solution.java)
+
+
+- 0151 - [翻转字符串里的单词](https://leetcode.cn/problems/reverse-words-in-a-string/description/) - [java](java/src/q0151/Solution.java)
+
+  - Java中 `StringBuilder`/`StringBuffer`的基本用法：
+    ```java
+    StringBuilder sb = new StringBuilder();
+    sb.append("1");
+    sb.insert(0, "z");
+    ```
+  - 正则
+    ```java
+    String[] ss = s.split("\\s+"); // 按照空格分割
+    ```
+    `\s` 匹配一个空格，`\s+` 匹配一个或更多空格
+
+
+- LCR182 - [动态口令](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/description/) - [java](java/src/qLCR182/Solution.java)
