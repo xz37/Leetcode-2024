@@ -98,7 +98,7 @@
   用和0206非常相似的递归
 
 
-## linkedList
+## String
 
 
 - 0344 - [反转字符串](https://leetcode.cn/problems/reverse-string/description/) - [java](java/src/q0344/Solution.java)
@@ -123,3 +123,6 @@
     String[] ss = s.split("\\s+"); // 按照空格分割
     ```
     `\s` 匹配一个空格，`\s+` 匹配一个或更多空格
+
+
+- LCR182 - [动态口令](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/description/) - [java](java/src/qLCR182/Solution.java)
