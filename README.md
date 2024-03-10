@@ -91,3 +91,8 @@
 
   1. 最直接的思路：while循环迭代，外面先标记当前指针cur和它的前一个pre，while里先记住cur的next节点，再把cur的next指针掰向pre，最后更新pre为现在cur、cur为原来的next节点
   2. 抽象一些的递归：想象reverseList已经实现，此时如果拿掉head，对剩下的链表操作reverseList，则返回的newHead就是期望的头节点，此时再把原来的head放在链表结尾（通过head.next.next）+更新head的next，就完成了
+
+
+- 0024 - [两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/description/) - [java](java/src/q0024/Solution.java)
+
+  用和0206非常相似的递归
