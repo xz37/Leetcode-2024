@@ -96,3 +96,12 @@
 - 0024 - [两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/description/) - [java](java/src/q0024/Solution.java)
 
   用和0206非常相似的递归
+
+
+## linkedList
+
+
+- 0344 - [反转字符串](https://leetcode.cn/problems/reverse-string/description/) - [java](java/src/q0344/Solution.java)
+
+
+- 0541 - [反转字符串II](https://leetcode.cn/problems/reverse-string-ii/description/) - [java](java/src/q0541/Solution.java)
