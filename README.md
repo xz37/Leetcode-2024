@@ -126,3 +126,8 @@
 
 
 - LCR182 - [动态口令](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/description/) - [java](java/src/qLCR182/Solution.java)
+
+
+- 0925 - [长按键入](https://leetcode.cn/problems/long-pressed-name/description/) - [java](java/src/q0925/Solution.java)
+  
+  两个指针分别指向name和typed，三种情况：指向的char一样/不一样但是长按/不一样且不是长按
