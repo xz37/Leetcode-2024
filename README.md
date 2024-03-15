@@ -25,7 +25,6 @@
   一个while里面4个for，for的关键是控制好4个边界
 
 
-## array2
 - 1356 - [根据数字二进制下 1 的数目排序](https://leetcode.cn/problems/sort-integers-by-the-number-of-1-bits/description/) - [python](python/q1356/solution.py) - [java](java/src/q1356/Solution.java)
 
   - java 
@@ -76,6 +75,9 @@
 - 0283 - [移动零](https://leetcode.cn/problems/move-zeroes/description/) - [java](java/src/q0283/Solution.java)
 
   一次遍历：快指针指向遍历的数，慢指针指向整理后最后一个非零的数
+
+
+- 0724 - [寻找数组的中心下标](https://leetcode.cn/problems/find-pivot-index/description/) - [java](java/src/q0724/Solution.java)
 
 
 ## linkedList
