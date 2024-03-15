@@ -80,6 +80,11 @@
 - 0724 - [寻找数组的中心下标](https://leetcode.cn/problems/find-pivot-index/description/) - [java](java/src/q0724/Solution.java)
 
 
+- 0922 - [按奇偶排序数组 II](https://leetcode.cn/problems/sort-array-by-parity-ii/description/) - [java](java/src/q0922/Solution.java)
+
+  新建数组，比遍历原数组元素，放到新数组对应位置
+
+
 ## linkedList
 
 
