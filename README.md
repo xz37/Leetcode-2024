@@ -114,6 +114,20 @@
   用和0206非常相似的递归
 
 
+- 0141 - [环形链表](https://leetcode.cn/problems/linked-list-cycle/description/) - [java](java/src/q0141/Solution.java)
+
+  `a.equals(b)` 用来比较两个引用所指向的 object 的 value 是否一样
+  
+  `a == b` 用来比较两个引用是否指向同一个东西
+
+  ```java
+  String str1 = new String('Hello');
+  String str2 = new String('Hello');
+  System.out.println(str1 == str2);         // false
+  System.out.println(str1.equals(str2));    // true
+  ```
+
+
 ## String
 
 
