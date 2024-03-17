@@ -1,5 +1,5 @@
 # Leetcode-2024
-## array
+## Array
 - 0704 - [二分查找](https://leetcode.cn/problems/binary-search/description/) - [python](python/q0704/solution.py) - [java](java/src/q0704/Solution.java)
     
   左右区间，边界小于等于
@@ -83,6 +83,15 @@
 - 0922 - [按奇偶排序数组 II](https://leetcode.cn/problems/sort-array-by-parity-ii/description/) - [java](java/src/q0922/Solution.java)
 
   新建数组，比遍历原数组元素，放到新数组对应位置
+
+
+- 0035 - [搜索插入位置](https://leetcode.cn/problems/search-insert-position/description/) - [java](java/src/q0035/Solution.java)
+
+  要寻找第一个大于等于target的元素
+  
+  修改二分法的部分：初始化ans的值为数组长度n，因为mid遍历不到n；合并target小于等于的情况
+
+
 
 
 ## linkedList
