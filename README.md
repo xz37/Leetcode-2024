@@ -131,6 +131,16 @@
 - 0242 - [有效的字母异位词](https://leetcode.cn/problems/valid-anagram/description/) - [java](java/src/q0242/Solution.java)
 
 
+- 1002 - [查找常用字符](https://leetcode.cn/problems/find-common-characters/description/) - [java](java/src/q1002/Solution.java)
+
+  ```java
+  // int -> char
+  int a = 52;
+  char ch = (char)a;
+  // char -> String
+  String str = String.valueOf(ch);
+  ```
+
 ## String
 
 
