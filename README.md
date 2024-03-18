@@ -128,6 +128,9 @@
   ```
 
 
+- 0242 - [有效的字母异位词](https://leetcode.cn/problems/valid-anagram/description/) - [java](java/src/q0242/Solution.java)
+
+
 ## String
 
 
