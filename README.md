@@ -141,6 +141,12 @@
   String str = String.valueOf(ch);
   ```
 
+
+- q0202 - [快乐数](https://leetcode.cn/problems/happy-number/description/) - [java](java/src/q0202/Solution.java)
+
+  - S1：题目暗示最后都是个循环，要么循环1，要么循环一个环，用快慢指针得到循环的那个元素，判断是不是1
+  - S2：用HashSet装着出现过的元素
+
 ## String
 
 
