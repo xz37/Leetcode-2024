@@ -147,6 +147,12 @@
   - S1：题目暗示最后都是个循环，要么循环1，要么循环一个环，用快慢指针得到循环的那个元素，判断是不是1
   - S2：用HashSet装着出现过的元素
 
+
+- q0160 - [链表相交](https://leetcode.cn/problems/intersection-of-two-linked-lists/description/) - [java](java/src/q0160/Solution.java)
+
+  先走遍我的路，再走遍你的路，如果我们的路相交，我们会在交点相遇，否则，我们的终点都是null
+
+
 ## String
 
 
