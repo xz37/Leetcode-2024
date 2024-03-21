@@ -92,6 +92,9 @@
   修改二分法的部分：初始化ans的值为数组长度n，因为mid遍历不到n；合并target小于等于的情况
 
 
+- q0289 - [轮转数组](https://leetcode.cn/problems/rotate-array/description/) - [java](java/src/q0189/Solution.java)
+
+  只用空间O1比较难：比较巧的思路是把整个数组翻转后在分别翻转
 
 
 ## linkedList
