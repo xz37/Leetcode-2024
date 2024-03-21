@@ -156,6 +156,14 @@
 - q0349 - [两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/description/) - [java](java/src/q0349/Solution.java)
 
 
+- q0001 - [两数之和](https://leetcode.cn/problems/two-sum/description/) - [java](java/src/q0001/Solution.java)
+
+
+- q0019 - [删除链表的倒数第N个节点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/) - [java](java/src/q0019/Solution.java)
+
+  只扫描一次的思路：快慢指针
+
+
 ## String
 
 
