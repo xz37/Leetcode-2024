@@ -96,6 +96,8 @@
 
 ## linkedList
 
+**🌟链表类大概率用双指针**
+
 
 - 0203 - [移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/description/) - [java](java/src/q0203/Solution.java)
 
@@ -162,6 +164,19 @@
 - q0019 - [删除链表的倒数第N个节点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/) - [java](java/src/q0019/Solution.java)
 
   只扫描一次的思路：快慢指针
+
+
+- q0142 - [环形链表II](https://leetcode.cn/problems/linked-list-cycle-ii/description/) - [java](java/src/q0142/Solution.java)
+
+  q0141的环形链表只要判断是不是环，这个再多问一个环的入口在哪
+
+  快慢指针在这里应用的原理是，一倍速的慢指针走过的长度正好是环的长度，因为：
+  - 二倍速的快指针和一倍速慢指针如果相遇，一定是在环里相遇
+  - 快慢指针相遇的时候，快指针一定比慢指针正好多走了一个环（想象跑步套圈的情况）
+  - 所以快指针和慢指针的走过的长度差就是环的长度
+  - 快指针和慢指针的走过的长度差 = 慢指针走过的长度
+  
+  最后再用q0019的思路得到入口
 
 
 ## String
