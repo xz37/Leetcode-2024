@@ -96,6 +96,8 @@
 
 ## linkedList
 
+**🌟链表类大概率用双指针**
+
 
 - 0203 - [移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/description/) - [java](java/src/q0203/Solution.java)
 
@@ -140,6 +142,42 @@
   // char -> String
   String str = String.valueOf(ch);
   ```
+
+
+- q0202 - [快乐数](https://leetcode.cn/problems/happy-number/description/) - [java](java/src/q0202/Solution.java)
+
+  - S1：题目暗示最后都是个循环，要么循环1，要么循环一个环，用快慢指针得到循环的那个元素，判断是不是1
+  - S2：用HashSet装着出现过的元素
+
+
+- q0160 - [链表相交](https://leetcode.cn/problems/intersection-of-two-linked-lists/description/) - [java](java/src/q0160/Solution.java)
+
+  先走遍我的路，再走遍你的路，如果我们的路相交，我们会在交点相遇，否则，我们的终点都是null
+
+
+- q0349 - [两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/description/) - [java](java/src/q0349/Solution.java)
+
+
+- q0001 - [两数之和](https://leetcode.cn/problems/two-sum/description/) - [java](java/src/q0001/Solution.java)
+
+
+- q0019 - [删除链表的倒数第N个节点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/) - [java](java/src/q0019/Solution.java)
+
+  只扫描一次的思路：快慢指针
+
+
+- q0142 - [环形链表II](https://leetcode.cn/problems/linked-list-cycle-ii/description/) - [java](java/src/q0142/Solution.java)
+
+  q0141的环形链表只要判断是不是环，这个再多问一个环的入口在哪
+
+  快慢指针在这里应用的原理是，一倍速的慢指针走过的长度正好是环的长度，因为：
+  - 二倍速的快指针和一倍速慢指针如果相遇，一定是在环里相遇
+  - 快慢指针相遇的时候，快指针一定比慢指针正好多走了一个环（想象跑步套圈的情况）
+  - 所以快指针和慢指针的走过的长度差就是环的长度
+  - 快指针和慢指针的走过的长度差 = 慢指针走过的长度
+  
+  最后再用q0019的思路得到入口
+
 
 ## String
 
