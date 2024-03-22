@@ -92,6 +92,15 @@
   修改二分法的部分：初始化ans的值为数组长度n，因为mid遍历不到n；合并target小于等于的情况
 
 
+- q0289 - [轮转数组](https://leetcode.cn/problems/rotate-array/description/) - [java](java/src/q0189/Solution.java)
+
+  只用空间O1比较难：比较巧的思路是把整个数组翻转后在分别翻转
+
+
+- q0034 - [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/) - []()
+
+  - 把问题分成两个小问题：1. 找到第一个target索引；2. 找到最后一个target索引。所以用到两次平行的二分法。
+  - 二分法稍微修改：只用在`num[mid]`为`target`时多更新一次索引`ansFirst`或`ansLast`
 
 
 ## linkedList
