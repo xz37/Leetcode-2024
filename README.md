@@ -92,12 +92,12 @@
   修改二分法的部分：初始化ans的值为数组长度n，因为mid遍历不到n；合并target小于等于的情况
 
 
-- q0289 - [轮转数组](https://leetcode.cn/problems/rotate-array/description/) - [java](java/src/q0189/Solution.java)
+- 0289 - [轮转数组](https://leetcode.cn/problems/rotate-array/description/) - [java](java/src/q0189/Solution.java)
 
   只用空间O1比较难：比较巧的思路是把整个数组翻转后在分别翻转
 
 
-- q0034 - [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/) - []()
+- 0034 - [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/) - []()
 
   - 把问题分成两个小问题：1. 找到第一个target索引；2. 找到最后一个target索引。所以用到两次平行的二分法。
   - 二分法稍微修改：只用在`num[mid]`为`target`时多更新一次索引`ansFirst`或`ansLast`
@@ -153,29 +153,29 @@
   ```
 
 
-- q0202 - [快乐数](https://leetcode.cn/problems/happy-number/description/) - [java](java/src/q0202/Solution.java)
+- 0202 - [快乐数](https://leetcode.cn/problems/happy-number/description/) - [java](java/src/q0202/Solution.java)
 
   - S1：题目暗示最后都是个循环，要么循环1，要么循环一个环，用快慢指针得到循环的那个元素，判断是不是1
   - S2：用HashSet装着出现过的元素
 
 
-- q0160 - [链表相交](https://leetcode.cn/problems/intersection-of-two-linked-lists/description/) - [java](java/src/q0160/Solution.java)
+- 0160 - [链表相交](https://leetcode.cn/problems/intersection-of-two-linked-lists/description/) - [java](java/src/q0160/Solution.java)
 
   先走遍我的路，再走遍你的路，如果我们的路相交，我们会在交点相遇，否则，我们的终点都是null
 
 
-- q0349 - [两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/description/) - [java](java/src/q0349/Solution.java)
+- 0349 - [两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/description/) - [java](java/src/q0349/Solution.java)
 
 
-- q0001 - [两数之和](https://leetcode.cn/problems/two-sum/description/) - [java](java/src/q0001/Solution.java)
+- 0001 - [两数之和](https://leetcode.cn/problems/two-sum/description/) - [java](java/src/q0001/Solution.java)
 
 
-- q0019 - [删除链表的倒数第N个节点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/) - [java](java/src/q0019/Solution.java)
+- 0019 - [删除链表的倒数第N个节点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/) - [java](java/src/q0019/Solution.java)
 
   只扫描一次的思路：快慢指针
 
 
-- q0142 - [环形链表II](https://leetcode.cn/problems/linked-list-cycle-ii/description/) - [java](java/src/q0142/Solution.java)
+- 0142 - [环形链表II](https://leetcode.cn/problems/linked-list-cycle-ii/description/) - [java](java/src/q0142/Solution.java)
 
   q0141的环形链表只要判断是不是环，这个再多问一个环的入口在哪
 
@@ -186,6 +186,14 @@
   - 快指针和慢指针的走过的长度差 = 慢指针走过的长度
   
   最后再用q0019的思路得到入口
+
+
+- 0383 - [赎金信](https://leetcode.cn/problems/ransom-note/description/) - [java](java/src/q0383/Solution.java)
+
+
+- 0459 - [重复的字符串](https://leetcode.cn/problems/repeated-substring-pattern/description/) - [java](java/src/q0459/Solution.java)
+
+  重复一下字符串，掐头去尾，新字符串如果还包含原来的字符串，说明愿字符串是重复的
 
 
 ## String
